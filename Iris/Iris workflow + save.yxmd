@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="2020.1">
   <Nodes>
-    <Node ToolID="2">
+    <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="234" y="294" />
+        <Position x="390" y="366" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -38,9 +38,9 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
     </Node>
-    <Node ToolID="3">
+    <Node ToolID="2">
       <GuiSettings>
-        <Position x="378" y="294" />
+        <Position x="510" y="366" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -56,9 +56,9 @@
       </Properties>
       <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
     </Node>
-    <Node ToolID="4">
+    <Node ToolID="3">
       <GuiSettings>
-        <Position x="474" y="246" />
+        <Position x="606" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -106,12 +106,15 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Boosted_Model.yxmc" />
     </Node>
-    <Node ToolID="5">
+    <Node ToolID="4">
       <GuiSettings Plugin="Score">
-        <Position x="618" y="246" />
+        <Position x="702" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -157,9 +160,9 @@
       </Properties>
       <EngineSettings Macro="Score\Supporting_Macros\score-engine.yxmc" EngineDll="Macro" EngineDllEntryPoint="Score\Supporting_Macros\score-engine.yxmc" />
     </Node>
-    <Node ToolID="7">
+    <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="702" y="246" />
+        <Position x="786" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -175,9 +178,9 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
-    <Node ToolID="9">
+    <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="822" y="246" />
+        <Position x="906" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -196,9 +199,9 @@ ENDIF
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
-    <Node ToolID="10">
+    <Node ToolID="9">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="930" y="246" />
+        <Position x="1014" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -215,9 +218,9 @@ ENDIF
       </Properties>
       <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
     </Node>
-    <Node ToolID="15">
+    <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-        <Position x="1038" y="246" />
+        <Position x="1122" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -244,62 +247,91 @@ ENDIF
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
     </Node>
-    <Node ToolID="16">
+    <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1122" y="246" />
+        <Position x="1206" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <FormulaFields>
-            <FormulaField expression="correct / (correct + [False]) * 100" field="Percentage" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Correct] / ([Correct] + [False]) * 100" field="Percentage" size="1073741823" type="V_WString" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText><![CDATA[Percentage = correct / (correct + [False]) * 100
+          <DefaultAnnotationText><![CDATA[Percentage = [Correct] / ([Correct] + [False]) * 100
 ]]></DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="666" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\mikedroog\Desktop\iris model.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>iris model.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
-      <Origin ToolID="2" Connection="Output" />
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Estimation" />
       <Destination ToolID="3" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="3" Connection="Estimation" />
-      <Destination ToolID="4" Connection="Input" />
+      <Origin ToolID="2" Connection="Validation" />
+      <Destination ToolID="4" Connection="Model" />
     </Connection>
     <Connection>
-      <Origin ToolID="3" Connection="Validation" />
-      <Destination ToolID="5" Connection="Model" />
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="4" Connection="Output" />
-      <Destination ToolID="5" Connection="Data" />
+      <Destination ToolID="6" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="5" Connection="Output" />
-      <Destination ToolID="7" Connection="Input" />
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="7" Connection="Output" />
+      <Origin ToolID="8" Connection="Output" />
       <Destination ToolID="9" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="9" Connection="Output" />
-      <Destination ToolID="10" Connection="Input" />
+      <Destination ToolID="14" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="10" Connection="Output" />
+      <Origin ToolID="14" Connection="Output" />
       <Destination ToolID="15" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="15" Connection="Output" />
-      <Destination ToolID="16" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -320,7 +352,7 @@ ENDIF
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>Iris Workflow</Name>
+      <Name>Iris workflow + save</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
