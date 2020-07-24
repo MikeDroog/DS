@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<AlteryxDocument yxmdVer="2020.1">
+<AlteryxDocument yxmdVer="2020.2">
   <Nodes>
     <Node ToolID="35">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="834" y="78" />
+        <Position x="888" y="132" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -23,7 +23,7 @@
     </Node>
     <Node ToolID="74">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="942" y="78" />
+        <Position x="996" y="132" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -42,113 +42,9 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
-    <Node ToolID="103">
-      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="2513" y="845" width="155.0626" height="133" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Caption>Plots , TO DO</Caption>
-          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
-          <Disabled value="False" />
-          <Folded value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <ChildNodes>
-        <Node ToolID="102">
-          <GuiSettings Plugin="PlotlyCharting">
-            <Position x="2538" y="894" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <ChartingFields>
-                <Traces>
-                  <type>bar</type>
-                  <mode>markers</mode>
-                  <orientation>v</orientation>
-                  <xsrc>Embarked</xsrc>
-                  <ysrc>Survived</ysrc>
-                  <textposition>None</textposition>
-                  <marker>
-                    <line>
-                      <width>0</width>
-                    </line>
-                  </marker>
-                </Traces>
-                <Traces>
-                  <orientation>v</orientation>
-                  <type>bar</type>
-                </Traces>
-                <Layout>
-                  <title>
-                    <text>
-                    </text>
-                  </title>
-                  <font>
-                    <family>sans-serif</family>
-                    <size>12</size>
-                  </font>
-                  <autosize>false</autosize>
-                  <width>700</width>
-                  <height>849</height>
-                  <showlegend>true</showlegend>
-                  <hovermode>closest</hovermode>
-                  <xaxis>
-                    <range>-0.99533131581892254</range>
-                    <range>3.890279716821758</range>
-                    <autorange>false</autorange>
-                    <title>
-                      <text>Embarked</text>
-                    </title>
-                    <tickfont>
-                      <size>12</size>
-                    </tickfont>
-                    <nticks>0</nticks>
-                    <type>category</type>
-                  </xaxis>
-                  <yaxis>
-                    <range>-100.83211510353956</range>
-                    <range>817.0718740481434</range>
-                    <autorange>false</autorange>
-                    <title>
-                      <text>Survived</text>
-                    </title>
-                    <type>linear</type>
-                  </yaxis>
-                  <margin>
-                    <pad>0</pad>
-                    <t>100</t>
-                    <b>80</b>
-                    <l>80</l>
-                    <r>80</r>
-                  </margin>
-                  <legend>
-                    <font>
-                      <size>12</size>
-                    </font>
-                    <borderwidth>0</borderwidth>
-                  </legend>
-                </Layout>
-              </ChartingFields>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
-        </Node>
-      </ChildNodes>
-    </Node>
     <Node ToolID="152">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="4374" y="1050" />
+        <Position x="4428" y="1104" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -180,7 +76,7 @@
     </Node>
     <Node ToolID="179">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="3977" y="989" width="385" height="181" />
+        <Position x="4031" y="1043" width="385" height="181" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -198,7 +94,7 @@
       <ChildNodes>
         <Node ToolID="146">
           <GuiSettings>
-            <Position x="4086" y="1038" />
+            <Position x="4140" y="1092" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -210,15 +106,12 @@
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
-          <EngineSettings Macro="C:\Users\mikedroog\AppData\Local\Packages\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\TempState\Downloads\One-Hot+Encoder (1)\One-Hot Encoder.yxmc" />
+          <EngineSettings Macro="..\..\..\..\..\AppData\Local\Packages\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\TempState\Downloads\One-Hot+Encoder (1)\One-Hot Encoder.yxmc" />
         </Node>
         <Node ToolID="147">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="4002" y="1038" />
+            <Position x="4056" y="1092" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -257,7 +150,7 @@
         </Node>
         <Node ToolID="148">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="4086" y="1086" />
+            <Position x="4140" y="1140" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -296,7 +189,7 @@
         </Node>
         <Node ToolID="149">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="4278" y="1050" />
+            <Position x="4332" y="1104" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -327,7 +220,7 @@
         </Node>
         <Node ToolID="151">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="4182" y="1038" />
+            <Position x="4236" y="1092" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -350,7 +243,7 @@
     </Node>
     <Node ToolID="178">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="3509" y="1001" width="457" height="169" />
+        <Position x="3563" y="1055" width="457" height="169" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -368,7 +261,7 @@
       <ChildNodes>
         <Node ToolID="133">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="3534" y="1074" />
+            <Position x="3588" y="1128" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -387,7 +280,7 @@
         </Node>
         <Node ToolID="134">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="3630" y="1050" />
+            <Position x="3684" y="1104" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -419,7 +312,7 @@
         </Node>
         <Node ToolID="137">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-            <Position x="3714" y="1050" />
+            <Position x="3768" y="1104" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -440,7 +333,7 @@
         </Node>
         <Node ToolID="140">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="3810" y="1086" />
+            <Position x="3864" y="1140" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -526,7 +419,7 @@
         </Node>
         <Node ToolID="141">
           <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
-            <Position x="3882" y="1062" />
+            <Position x="3936" y="1116" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -555,7 +448,7 @@
     </Node>
     <Node ToolID="177">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="4493" y="833" width="871" height="429" />
+        <Position x="4547" y="887" width="985" height="429" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -573,7 +466,7 @@
       <ChildNodes>
         <Node ToolID="153">
           <GuiSettings Plugin="Decision_Tree">
-            <Position x="4614" y="882" />
+            <Position x="4668" y="936" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -667,7 +560,7 @@
         </Node>
         <Node ToolID="155">
           <GuiSettings>
-            <Position x="4518" y="965.9999" />
+            <Position x="4572" y="1020" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -680,15 +573,12 @@
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
         </Node>
         <Node ToolID="156">
           <GuiSettings Plugin="Score">
-            <Position x="4770" y="954" />
+            <Position x="4830" y="1014" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -735,17 +625,17 @@
         </Node>
         <Node ToolID="161">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="4866" y="954" />
+            <Position x="5022" y="1014" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <FormulaFields>
-                <FormulaField expression="IF [score] &gt; 0.5 THEN 1 ELSE 0 ENDIF" field="Prediction" size="4" type="Int32" />
+                <FormulaField expression="IF [Score_0] &gt; [Score_1] THEN 0 ELSE 1 ENDIF" field="Prediction" size="4" type="Int32" />
               </FormulaFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText><![CDATA[Prediction = IF [score] > 0.5 THEN 1 ELSE 0 ENDIF
+              <DefaultAnnotationText><![CDATA[Prediction = IF [Score_0] > [Score_1] THEN 0 ELSE 1 ENDIF
 ]]></DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
@@ -754,7 +644,7 @@
         </Node>
         <Node ToolID="162">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="4962" y="954" />
+            <Position x="5118" y="1014" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -774,7 +664,7 @@ ENDIF
         </Node>
         <Node ToolID="163">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="5046" y="954" />
+            <Position x="5214" y="1014" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -793,7 +683,7 @@ ENDIF
         </Node>
         <Node ToolID="164">
           <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-            <Position x="5154" y="954" />
+            <Position x="5310" y="1014" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -822,7 +712,7 @@ ENDIF
         </Node>
         <Node ToolID="165">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="5238" y="954" />
+            <Position x="5406" y="1014" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -841,7 +731,7 @@ ENDIF
         </Node>
         <Node ToolID="173">
           <GuiSettings Plugin="Score">
-            <Position x="4782" y="1098" />
+            <Position x="4836" y="1152" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -888,1011 +778,26 @@ ENDIF
         </Node>
         <Node ToolID="174">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="4890" y="1098" />
+            <Position x="4944" y="1152" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <FormulaFields>
-                <FormulaField expression="IF [score] &gt; 0.5 THEN 1 ELSE 0 ENDIF" field="Survived" size="4" type="Int32" />
+                <FormulaField expression="IF [Score_0] &gt; [Score_1] THEN 0 ELSE 1 ENDIF" field="Survived" size="4" type="Int32" />
               </FormulaFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText><![CDATA[Survived = IF [score] > 0.5 THEN 1 ELSE 0 ENDIF
+              <DefaultAnnotationText><![CDATA[Survived = IF [Score_0] > [Score_1] THEN 0 ELSE 1 ENDIF
 ]]></DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
         </Node>
-        <Node ToolID="175">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="4974" y="1098" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <OrderChanged value="True" />
-              <CommaDecimal value="False" />
-              <SelectFields>
-                <SelectField field="A__2__39186" selected="False" />
-                <SelectField field="A__5__2152" selected="False" />
-                <SelectField field="A__5__3235" selected="False" />
-                <SelectField field="A__5__3338" selected="False" />
-                <SelectField field="A_4__20589" selected="False" />
-                <SelectField field="A_4__34244" selected="False" />
-                <SelectField field="A_4__39886" selected="False" />
-                <SelectField field="A_4_31416" selected="False" />
-                <SelectField field="A_4_45380" selected="False" />
-                <SelectField field="A_4_48871" selected="False" />
-                <SelectField field="A_4_48873" selected="False" />
-                <SelectField field="A_5__10482" selected="False" />
-                <SelectField field="A_5__11206" selected="False" />
-                <SelectField field="A_5__13032" selected="False" />
-                <SelectField field="A_5__18509" selected="False" />
-                <SelectField field="A_5__2151" selected="False" />
-                <SelectField field="A_5__3236" selected="False" />
-                <SelectField field="A_5__3336" selected="False" />
-                <SelectField field="A_5__3337" selected="False" />
-                <SelectField field="A_5__851" selected="False" />
-                <SelectField field="A_5_1478" selected="False" />
-                <SelectField field="A_5_21171" selected="False" />
-                <SelectField field="A_5_21172" selected="False" />
-                <SelectField field="A_5_21173" selected="False" />
-                <SelectField field="A_5_21174" selected="False" />
-                <SelectField field="A_5_21175" selected="False" />
-                <SelectField field="A_5_2466" selected="False" />
-                <SelectField field="A_5_2817" selected="False" />
-                <SelectField field="A_5_3536" selected="False" />
-                <SelectField field="A_5_3540" selected="False" />
-                <SelectField field="A_5_3594" selected="False" />
-                <SelectField field="A_5_3902" selected="False" />
-                <SelectField field="A_S_2816" selected="False" />
-                <SelectField field="A4__54510" selected="False" />
-                <SelectField field="Age" selected="False" />
-                <SelectField field="Alleen" selected="False" />
-                <SelectField field="AQ_3__30631" selected="False" />
-                <SelectField field="AQ_4_3130" selected="False" />
-                <SelectField field="C" selected="False" />
-                <SelectField field="C_17368" selected="False" />
-                <SelectField field="C_17369" selected="False" />
-                <SelectField field="C_4001" selected="False" />
-                <SelectField field="C_7075" selected="False" />
-                <SelectField field="C_7076" selected="False" />
-                <SelectField field="C_7077" selected="False" />
-                <SelectField field="C_A__15185" selected="False" />
-                <SelectField field="C_A__17248" selected="False" />
-                <SelectField field="C_A__18723" selected="False" />
-                <SelectField field="C_A__2315" selected="False" />
-                <SelectField field="C_A__24579" selected="False" />
-                <SelectField field="C_A__24580" selected="False" />
-                <SelectField field="C_A__2673" selected="False" />
-                <SelectField field="C_A__29178" selected="False" />
-                <SelectField field="C_A__29395" selected="False" />
-                <SelectField field="C_A__29566" selected="False" />
-                <SelectField field="C_A__30769" selected="False" />
-                <SelectField field="C_A__31026" selected="False" />
-                <SelectField field="C_A__31029" selected="False" />
-                <SelectField field="C_A__31030" selected="False" />
-                <SelectField field="C_A__31921" selected="False" />
-                <SelectField field="C_A__33111" selected="False" />
-                <SelectField field="C_A__33112" selected="False" />
-                <SelectField field="C_A__33595" selected="False" />
-                <SelectField field="C_A__34050" selected="False" />
-                <SelectField field="C_A__34260" selected="False" />
-                <SelectField field="C_A__34644" selected="False" />
-                <SelectField field="C_A__34651" selected="False" />
-                <SelectField field="C_A__37671" selected="False" />
-                <SelectField field="C_A__42795" selected="False" />
-                <SelectField field="C_A__49867" selected="False" />
-                <SelectField field="C_A__5547" selected="False" />
-                <SelectField field="C_A__6212" selected="False" />
-                <SelectField field="C_A__SOTON_34068" selected="False" />
-                <SelectField field="CA__2314" selected="False" />
-                <SelectField field="CA__2343" selected="False" />
-                <SelectField field="CA_2144" selected="False" />
-                <SelectField field="CA_31352" selected="False" />
-                <SelectField field="F_C__12750" selected="False" />
-                <SelectField field="F_C__12998" selected="False" />
-                <SelectField field="F_C_C__13528" selected="False" />
-                <SelectField field="F_C_C__13529" selected="False" />
-                <SelectField field="F_C_C__13531" selected="False" />
-                <SelectField field="F_C_C__13534" selected="False" />
-                <SelectField field="F_C_C__13540" selected="False" />
-                <SelectField field="Fa_265302" selected="False" />
-                <SelectField field="Familie_grootte" selected="False" />
-                <SelectField field="Fare" selected="False" />
-                <SelectField field="female" selected="False" />
-                <SelectField field="Groot" selected="False" />
-                <SelectField field="Klein" selected="False" />
-                <SelectField field="LINE" selected="False" />
-                <SelectField field="LP_1588" selected="False" />
-                <SelectField field="male" selected="False" />
-                <SelectField field="Middel" selected="False" />
-                <SelectField field="Name" selected="False" />
-                <SelectField field="P_PP_3381" selected="False" />
-                <SelectField field="Parch" selected="False" />
-                <SelectField field="PassengerId" selected="True" />
-                <SelectField field="PC_17318" selected="False" />
-                <SelectField field="PC_17473" selected="False" />
-                <SelectField field="PC_17474" selected="False" />
-                <SelectField field="PC_17475" selected="False" />
-                <SelectField field="PC_17476" selected="False" />
-                <SelectField field="PC_17477" selected="False" />
-                <SelectField field="PC_17482" selected="False" />
-                <SelectField field="PC_17483" selected="False" />
-                <SelectField field="PC_17485" selected="False" />
-                <SelectField field="PC_17531" selected="False" />
-                <SelectField field="PC_17558" selected="False" />
-                <SelectField field="PC_17562" selected="False" />
-                <SelectField field="PC_17569" selected="False" />
-                <SelectField field="PC_17572" selected="False" />
-                <SelectField field="PC_17580" selected="False" />
-                <SelectField field="PC_17582" selected="False" />
-                <SelectField field="PC_17585" selected="False" />
-                <SelectField field="PC_17590" selected="False" />
-                <SelectField field="PC_17591" selected="False" />
-                <SelectField field="PC_17592" selected="False" />
-                <SelectField field="PC_17593" selected="False" />
-                <SelectField field="PC_17594" selected="False" />
-                <SelectField field="PC_17595" selected="False" />
-                <SelectField field="PC_17596" selected="False" />
-                <SelectField field="PC_17597" selected="False" />
-                <SelectField field="PC_17598" selected="False" />
-                <SelectField field="PC_17599" selected="False" />
-                <SelectField field="PC_17600" selected="False" />
-                <SelectField field="PC_17601" selected="False" />
-                <SelectField field="PC_17603" selected="False" />
-                <SelectField field="PC_17604" selected="False" />
-                <SelectField field="PC_17605" selected="False" />
-                <SelectField field="PC_17606" selected="False" />
-                <SelectField field="PC_17607" selected="False" />
-                <SelectField field="PC_17608" selected="False" />
-                <SelectField field="PC_17609" selected="False" />
-                <SelectField field="PC_17610" selected="False" />
-                <SelectField field="PC_17611" selected="False" />
-                <SelectField field="PC_17612" selected="False" />
-                <SelectField field="PC_17613" selected="False" />
-                <SelectField field="PC_17754" selected="False" />
-                <SelectField field="PC_17755" selected="False" />
-                <SelectField field="PC_17756" selected="False" />
-                <SelectField field="PC_17757" selected="False" />
-                <SelectField field="PC_17758" selected="False" />
-                <SelectField field="PC_17759" selected="False" />
-                <SelectField field="PC_17760" selected="False" />
-                <SelectField field="PC_17761" selected="False" />
-                <SelectField field="PP_4348" selected="False" />
-                <SelectField field="PP_9549" selected="False" />
-                <SelectField field="Q" selected="False" />
-                <SelectField field="S" selected="False" />
-                <SelectField field="S_C__A_4__23567" selected="False" />
-                <SelectField field="S_C__PARIS_2079" selected="False" />
-                <SelectField field="S_O__P_P__2" selected="False" />
-                <SelectField field="S_O__P_P__251" selected="False" />
-                <SelectField field="S_O__P_P__3" selected="False" />
-                <SelectField field="S_O__P_P__751" selected="False" />
-                <SelectField field="S_O__P_P__752" selected="False" />
-                <SelectField field="S_O_C__14879" selected="False" />
-                <SelectField field="S_O_P__1166" selected="False" />
-                <SelectField field="S_P__3464" selected="False" />
-                <SelectField field="S_W__PP_752" selected="False" />
-                <SelectField field="SC_14888" selected="False" />
-                <SelectField field="SC_1748" selected="False" />
-                <SelectField field="SC_A_3_2861" selected="False" />
-                <SelectField field="SC_A4_23568" selected="False" />
-                <SelectField field="SC_AH_29037" selected="False" />
-                <SelectField field="SC_AH_3085" selected="False" />
-                <SelectField field="SC_AH_Basle_541" selected="False" />
-                <SelectField field="SC_Paris_2123" selected="False" />
-                <SelectField field="SC_PARIS_2131" selected="False" />
-                <SelectField field="SC_PARIS_2133" selected="False" />
-                <SelectField field="SC_PARIS_2146" selected="False" />
-                <SelectField field="SC_PARIS_2147" selected="False" />
-                <SelectField field="SC_PARIS_2148" selected="False" />
-                <SelectField field="SC_PARIS_2149" selected="False" />
-                <SelectField field="SC_PARIS_2159" selected="False" />
-                <SelectField field="SC_Paris_2163" selected="False" />
-                <SelectField field="SC_PARIS_2166" selected="False" />
-                <SelectField field="SC_PARIS_2167" selected="False" />
-                <SelectField field="SC_PARIS_2168" selected="False" />
-                <SelectField field="SCO_W_1585" selected="False" />
-                <SelectField field="Score" selected="False" />
-                <SelectField field="SibSp" selected="False" />
-                <SelectField field="SO_C_14885" selected="False" />
-                <SelectField field="SOTON_O_Q__3101262" selected="False" />
-                <SelectField field="SOTON_O_Q__3101263" selected="False" />
-                <SelectField field="SOTON_O_Q__3101305" selected="False" />
-                <SelectField field="SOTON_O_Q__3101306" selected="False" />
-                <SelectField field="SOTON_O_Q__3101307" selected="False" />
-                <SelectField field="SOTON_O_Q__3101308" selected="False" />
-                <SelectField field="SOTON_O_Q__3101309" selected="False" />
-                <SelectField field="SOTON_O_Q__3101310" selected="False" />
-                <SelectField field="SOTON_O_Q__3101311" selected="False" />
-                <SelectField field="SOTON_O_Q__3101312" selected="False" />
-                <SelectField field="SOTON_O_Q__3101314" selected="False" />
-                <SelectField field="SOTON_O_Q__3101315" selected="False" />
-                <SelectField field="SOTON_O_Q__392078" selected="False" />
-                <SelectField field="SOTON_O_Q__392087" selected="False" />
-                <SelectField field="SOTON_O2_3101272" selected="False" />
-                <SelectField field="SOTON_O2_3101284" selected="False" />
-                <SelectField field="SOTON_O2_3101287" selected="False" />
-                <SelectField field="SOTON_OQ_3101316" selected="False" />
-                <SelectField field="SOTON_OQ_3101317" selected="False" />
-                <SelectField field="SOTON_OQ_392076" selected="False" />
-                <SelectField field="SOTON_OQ_392082" selected="False" />
-                <SelectField field="SOTON_OQ_392083" selected="False" />
-                <SelectField field="SOTON_OQ_392086" selected="False" />
-                <SelectField field="SOTON_OQ_392089" selected="False" />
-                <SelectField field="SOTON_OQ_392090" selected="False" />
-                <SelectField field="STON_O_2__3101268" selected="False" />
-                <SelectField field="STON_O_2__3101269" selected="False" />
-                <SelectField field="STON_O_2__3101273" selected="False" />
-                <SelectField field="STON_O_2__3101274" selected="False" />
-                <SelectField field="STON_O_2__3101275" selected="False" />
-                <SelectField field="STON_O_2__3101280" selected="False" />
-                <SelectField field="STON_O_2__3101285" selected="False" />
-                <SelectField field="STON_O_2__3101286" selected="False" />
-                <SelectField field="STON_O_2__3101288" selected="False" />
-                <SelectField field="STON_O_2__3101289" selected="False" />
-                <SelectField field="STON_O_2__3101291" selected="False" />
-                <SelectField field="STON_O_2__3101292" selected="False" />
-                <SelectField field="STON_O_2__3101293" selected="False" />
-                <SelectField field="STON_O_2__3101294" selected="False" />
-                <SelectField field="STON_O2__3101270" selected="False" />
-                <SelectField field="STON_O2__3101271" selected="False" />
-                <SelectField field="STON_O2__3101279" selected="False" />
-                <SelectField field="STON_O2__3101282" selected="False" />
-                <SelectField field="STON_O2__3101283" selected="False" />
-                <SelectField field="STON_O2__3101290" selected="False" />
-                <SelectField field="STON_OQ__369943" selected="False" />
-                <SelectField field="Survived" selected="True" />
-                <SelectField field="SW_PP_751" selected="False" />
-                <SelectField field="Ticket_frequentie" selected="False" />
-                <SelectField field="W__C__14258" selected="False" />
-                <SelectField field="W__C__14260" selected="False" />
-                <SelectField field="W__C__14263" selected="False" />
-                <SelectField field="W__C__14266" selected="False" />
-                <SelectField field="W__C__6607" selected="False" />
-                <SelectField field="W__C__6608" selected="False" />
-                <SelectField field="W__C__6609" selected="False" />
-                <SelectField field="W_C_14208" selected="False" />
-                <SelectField field="W_E_P__5734" selected="False" />
-                <SelectField field="WE_P_5735" selected="False" />
-                <SelectField field="X_Dr_Military_Noble_Clergy" selected="False" />
-                <SelectField field="X_Master" selected="False" />
-                <SelectField field="X_Miss_Mrs_Ms" selected="False" />
-                <SelectField field="X_Mr" selected="False" />
-                <SelectField field="X1" selected="False" />
-                <SelectField field="X10" selected="False" />
-                <SelectField field="X11" selected="False" />
-                <SelectField field="X110152" selected="False" />
-                <SelectField field="X110413" selected="False" />
-                <SelectField field="X110465" selected="False" />
-                <SelectField field="X110469" selected="False" />
-                <SelectField field="X110489" selected="False" />
-                <SelectField field="X110564" selected="False" />
-                <SelectField field="X110813" selected="False" />
-                <SelectField field="X111163" selected="False" />
-                <SelectField field="X111240" selected="False" />
-                <SelectField field="X111320" selected="False" />
-                <SelectField field="X111361" selected="False" />
-                <SelectField field="X111369" selected="False" />
-                <SelectField field="X111426" selected="False" />
-                <SelectField field="X111427" selected="False" />
-                <SelectField field="X111428" selected="False" />
-                <SelectField field="X112050" selected="False" />
-                <SelectField field="X112051" selected="False" />
-                <SelectField field="X112052" selected="False" />
-                <SelectField field="X112053" selected="False" />
-                <SelectField field="X112058" selected="False" />
-                <SelectField field="X112059" selected="False" />
-                <SelectField field="X112277" selected="False" />
-                <SelectField field="X112377" selected="False" />
-                <SelectField field="X112378" selected="False" />
-                <SelectField field="X112379" selected="False" />
-                <SelectField field="X112901" selected="False" />
-                <SelectField field="X113028" selected="False" />
-                <SelectField field="X113038" selected="False" />
-                <SelectField field="X113043" selected="False" />
-                <SelectField field="X113044" selected="False" />
-                <SelectField field="X113050" selected="False" />
-                <SelectField field="X113051" selected="False" />
-                <SelectField field="X113054" selected="False" />
-                <SelectField field="X113055" selected="False" />
-                <SelectField field="X113056" selected="False" />
-                <SelectField field="X113059" selected="False" />
-                <SelectField field="X113501" selected="False" />
-                <SelectField field="X113503" selected="False" />
-                <SelectField field="X113505" selected="False" />
-                <SelectField field="X113509" selected="False" />
-                <SelectField field="X113510" selected="False" />
-                <SelectField field="X113514" selected="False" />
-                <SelectField field="X113572" selected="False" />
-                <SelectField field="X113760" selected="False" />
-                <SelectField field="X113767" selected="False" />
-                <SelectField field="X113773" selected="False" />
-                <SelectField field="X113776" selected="False" />
-                <SelectField field="X113778" selected="False" />
-                <SelectField field="X113780" selected="False" />
-                <SelectField field="X113781" selected="False" />
-                <SelectField field="X113783" selected="False" />
-                <SelectField field="X113784" selected="False" />
-                <SelectField field="X113786" selected="False" />
-                <SelectField field="X113787" selected="False" />
-                <SelectField field="X113788" selected="False" />
-                <SelectField field="X113789" selected="False" />
-                <SelectField field="X113790" selected="False" />
-                <SelectField field="X113791" selected="False" />
-                <SelectField field="X113792" selected="False" />
-                <SelectField field="X113794" selected="False" />
-                <SelectField field="X113795" selected="False" />
-                <SelectField field="X113796" selected="False" />
-                <SelectField field="X113798" selected="False" />
-                <SelectField field="X113800" selected="False" />
-                <SelectField field="X113801" selected="False" />
-                <SelectField field="X113803" selected="False" />
-                <SelectField field="X113804" selected="False" />
-                <SelectField field="X113806" selected="False" />
-                <SelectField field="X113807" selected="False" />
-                <SelectField field="X11668" selected="False" />
-                <SelectField field="X11751" selected="False" />
-                <SelectField field="X11752" selected="False" />
-                <SelectField field="X11753" selected="False" />
-                <SelectField field="X11755" selected="False" />
-                <SelectField field="X11765" selected="False" />
-                <SelectField field="X11767" selected="False" />
-                <SelectField field="X11769" selected="False" />
-                <SelectField field="X11770" selected="False" />
-                <SelectField field="X11771" selected="False" />
-                <SelectField field="X11774" selected="False" />
-                <SelectField field="X11778" selected="False" />
-                <SelectField field="X11813" selected="False" />
-                <SelectField field="X11967" selected="False" />
-                <SelectField field="X12" selected="False" />
-                <SelectField field="X1222" selected="False" />
-                <SelectField field="X12233" selected="False" />
-                <SelectField field="X12460" selected="False" />
-                <SelectField field="X12749" selected="False" />
-                <SelectField field="X13" selected="False" />
-                <SelectField field="X13049" selected="False" />
-                <SelectField field="X13050" selected="False" />
-                <SelectField field="X13213" selected="False" />
-                <SelectField field="X13214" selected="False" />
-                <SelectField field="X13236" selected="False" />
-                <SelectField field="X13502" selected="False" />
-                <SelectField field="X13507" selected="False" />
-                <SelectField field="X13508" selected="False" />
-                <SelectField field="X13509" selected="False" />
-                <SelectField field="X13567" selected="False" />
-                <SelectField field="X13568" selected="False" />
-                <SelectField field="X13695" selected="False" />
-                <SelectField field="X13905" selected="False" />
-                <SelectField field="X14311" selected="False" />
-                <SelectField field="X14312" selected="False" />
-                <SelectField field="X14313" selected="False" />
-                <SelectField field="X14973" selected="False" />
-                <SelectField field="X1601" selected="False" />
-                <SelectField field="X16966" selected="False" />
-                <SelectField field="X16988" selected="False" />
-                <SelectField field="X17421" selected="False" />
-                <SelectField field="X17453" selected="False" />
-                <SelectField field="X17463" selected="False" />
-                <SelectField field="X17464" selected="False" />
-                <SelectField field="X17465" selected="False" />
-                <SelectField field="X17466" selected="False" />
-                <SelectField field="X17474" selected="False" />
-                <SelectField field="X17475" selected="False" />
-                <SelectField field="X17764" selected="False" />
-                <SelectField field="X17765" selected="False" />
-                <SelectField field="X17770" selected="False" />
-                <SelectField field="X19877" selected="False" />
-                <SelectField field="X19924" selected="False" />
-                <SelectField field="X19928" selected="False" />
-                <SelectField field="X19943" selected="False" />
-                <SelectField field="X19947" selected="False" />
-                <SelectField field="X19950" selected="False" />
-                <SelectField field="X19952" selected="False" />
-                <SelectField field="X19972" selected="False" />
-                <SelectField field="X19988" selected="False" />
-                <SelectField field="X19996" selected="False" />
-                <SelectField field="X2" selected="False" />
-                <SelectField field="X2003" selected="False" />
-                <SelectField field="X211535" selected="False" />
-                <SelectField field="X211536" selected="False" />
-                <SelectField field="X21228" selected="False" />
-                <SelectField field="X21332" selected="False" />
-                <SelectField field="X21440" selected="False" />
-                <SelectField field="X218629" selected="False" />
-                <SelectField field="X219533" selected="False" />
-                <SelectField field="X220367" selected="False" />
-                <SelectField field="X220844" selected="False" />
-                <SelectField field="X220845" selected="False" />
-                <SelectField field="X2223" selected="False" />
-                <SelectField field="X223596" selected="False" />
-                <SelectField field="X226593" selected="False" />
-                <SelectField field="X226875" selected="False" />
-                <SelectField field="X228414" selected="False" />
-                <SelectField field="X229236" selected="False" />
-                <SelectField field="X230080" selected="False" />
-                <SelectField field="X230136" selected="False" />
-                <SelectField field="X230433" selected="False" />
-                <SelectField field="X230434" selected="False" />
-                <SelectField field="X231919" selected="False" />
-                <SelectField field="X231945" selected="False" />
-                <SelectField field="X233478" selected="False" />
-                <SelectField field="X233639" selected="False" />
-                <SelectField field="X233734" selected="False" />
-                <SelectField field="X233866" selected="False" />
-                <SelectField field="X234360" selected="False" />
-                <SelectField field="X234604" selected="False" />
-                <SelectField field="X234686" selected="False" />
-                <SelectField field="X234818" selected="False" />
-                <SelectField field="X235509" selected="False" />
-                <SelectField field="X236171" selected="False" />
-                <SelectField field="X236852" selected="False" />
-                <SelectField field="X236853" selected="False" />
-                <SelectField field="X236854" selected="False" />
-                <SelectField field="X237216" selected="False" />
-                <SelectField field="X237249" selected="False" />
-                <SelectField field="X237393" selected="False" />
-                <SelectField field="X237442" selected="False" />
-                <SelectField field="X237565" selected="False" />
-                <SelectField field="X237668" selected="False" />
-                <SelectField field="X237670" selected="False" />
-                <SelectField field="X237671" selected="False" />
-                <SelectField field="X237734" selected="False" />
-                <SelectField field="X237735" selected="False" />
-                <SelectField field="X237736" selected="False" />
-                <SelectField field="X237789" selected="False" />
-                <SelectField field="X237798" selected="False" />
-                <SelectField field="X239059" selected="False" />
-                <SelectField field="X239853" selected="False" />
-                <SelectField field="X239854" selected="False" />
-                <SelectField field="X239855" selected="False" />
-                <SelectField field="X239856" selected="False" />
-                <SelectField field="X239865" selected="False" />
-                <SelectField field="X240261" selected="False" />
-                <SelectField field="X240276" selected="False" />
-                <SelectField field="X24065" selected="False" />
-                <SelectField field="X240929" selected="False" />
-                <SelectField field="X24160" selected="False" />
-                <SelectField field="X242963" selected="False" />
-                <SelectField field="X243847" selected="False" />
-                <SelectField field="X243880" selected="False" />
-                <SelectField field="X244252" selected="False" />
-                <SelectField field="X244270" selected="False" />
-                <SelectField field="X244278" selected="False" />
-                <SelectField field="X244310" selected="False" />
-                <SelectField field="X244346" selected="False" />
-                <SelectField field="X244358" selected="False" />
-                <SelectField field="X244360" selected="False" />
-                <SelectField field="X244361" selected="False" />
-                <SelectField field="X244367" selected="False" />
-                <SelectField field="X244368" selected="False" />
-                <SelectField field="X244373" selected="False" />
-                <SelectField field="X248659" selected="False" />
-                <SelectField field="X248698" selected="False" />
-                <SelectField field="X248706" selected="False" />
-                <SelectField field="X248723" selected="False" />
-                <SelectField field="X248726" selected="False" />
-                <SelectField field="X248727" selected="False" />
-                <SelectField field="X248731" selected="False" />
-                <SelectField field="X248733" selected="False" />
-                <SelectField field="X248734" selected="False" />
-                <SelectField field="X248738" selected="False" />
-                <SelectField field="X248740" selected="False" />
-                <SelectField field="X248744" selected="False" />
-                <SelectField field="X248746" selected="False" />
-                <SelectField field="X248747" selected="False" />
-                <SelectField field="X250643" selected="False" />
-                <SelectField field="X250644" selected="False" />
-                <SelectField field="X250646" selected="False" />
-                <SelectField field="X250647" selected="False" />
-                <SelectField field="X250648" selected="False" />
-                <SelectField field="X250649" selected="False" />
-                <SelectField field="X250650" selected="False" />
-                <SelectField field="X250651" selected="False" />
-                <SelectField field="X250652" selected="False" />
-                <SelectField field="X250653" selected="False" />
-                <SelectField field="X250655" selected="False" />
-                <SelectField field="X2543" selected="False" />
-                <SelectField field="X2620" selected="False" />
-                <SelectField field="X2621" selected="False" />
-                <SelectField field="X2622" selected="False" />
-                <SelectField field="X2623" selected="False" />
-                <SelectField field="X2624" selected="False" />
-                <SelectField field="X2625" selected="False" />
-                <SelectField field="X2626" selected="False" />
-                <SelectField field="X2627" selected="False" />
-                <SelectField field="X2628" selected="False" />
-                <SelectField field="X2629" selected="False" />
-                <SelectField field="X2631" selected="False" />
-                <SelectField field="X26360" selected="False" />
-                <SelectField field="X2641" selected="False" />
-                <SelectField field="X2647" selected="False" />
-                <SelectField field="X2648" selected="False" />
-                <SelectField field="X2649" selected="False" />
-                <SelectField field="X2650" selected="False" />
-                <SelectField field="X2651" selected="False" />
-                <SelectField field="X2652" selected="False" />
-                <SelectField field="X2653" selected="False" />
-                <SelectField field="X2654" selected="False" />
-                <SelectField field="X2655" selected="False" />
-                <SelectField field="X2656" selected="False" />
-                <SelectField field="X2657" selected="False" />
-                <SelectField field="X2658" selected="False" />
-                <SelectField field="X2659" selected="False" />
-                <SelectField field="X2660" selected="False" />
-                <SelectField field="X2661" selected="False" />
-                <SelectField field="X2662" selected="False" />
-                <SelectField field="X2663" selected="False" />
-                <SelectField field="X2664" selected="False" />
-                <SelectField field="X2665" selected="False" />
-                <SelectField field="X2666" selected="False" />
-                <SelectField field="X2667" selected="False" />
-                <SelectField field="X2668" selected="False" />
-                <SelectField field="X2669" selected="False" />
-                <SelectField field="X2670" selected="False" />
-                <SelectField field="X26707" selected="False" />
-                <SelectField field="X2671" selected="False" />
-                <SelectField field="X2672" selected="False" />
-                <SelectField field="X2673" selected="False" />
-                <SelectField field="X2674" selected="False" />
-                <SelectField field="X2675" selected="False" />
-                <SelectField field="X2676" selected="False" />
-                <SelectField field="X2677" selected="False" />
-                <SelectField field="X2678" selected="False" />
-                <SelectField field="X2679" selected="False" />
-                <SelectField field="X2680" selected="False" />
-                <SelectField field="X2681" selected="False" />
-                <SelectField field="X2682" selected="False" />
-                <SelectField field="X2683" selected="False" />
-                <SelectField field="X2684" selected="False" />
-                <SelectField field="X2685" selected="False" />
-                <SelectField field="X2686" selected="False" />
-                <SelectField field="X2687" selected="False" />
-                <SelectField field="X2688" selected="False" />
-                <SelectField field="X2689" selected="False" />
-                <SelectField field="X2690" selected="False" />
-                <SelectField field="X2691" selected="False" />
-                <SelectField field="X2692" selected="False" />
-                <SelectField field="X2693" selected="False" />
-                <SelectField field="X2694" selected="False" />
-                <SelectField field="X2695" selected="False" />
-                <SelectField field="X2696" selected="False" />
-                <SelectField field="X2697" selected="False" />
-                <SelectField field="X2698" selected="False" />
-                <SelectField field="X2699" selected="False" />
-                <SelectField field="X2700" selected="False" />
-                <SelectField field="X27042" selected="False" />
-                <SelectField field="X27267" selected="False" />
-                <SelectField field="X27849" selected="False" />
-                <SelectField field="X28004" selected="False" />
-                <SelectField field="X28034" selected="False" />
-                <SelectField field="X28133" selected="False" />
-                <SelectField field="X28134" selected="False" />
-                <SelectField field="X28206" selected="False" />
-                <SelectField field="X28213" selected="False" />
-                <SelectField field="X28220" selected="False" />
-                <SelectField field="X28221" selected="False" />
-                <SelectField field="X28228" selected="False" />
-                <SelectField field="X28403" selected="False" />
-                <SelectField field="X28404" selected="False" />
-                <SelectField field="X28424" selected="False" />
-                <SelectField field="X28425" selected="False" />
-                <SelectField field="X28551" selected="False" />
-                <SelectField field="X28664" selected="False" />
-                <SelectField field="X28665" selected="False" />
-                <SelectField field="X28666" selected="False" />
-                <SelectField field="X29011" selected="False" />
-                <SelectField field="X2908" selected="False" />
-                <SelectField field="X29103" selected="False" />
-                <SelectField field="X29104" selected="False" />
-                <SelectField field="X29105" selected="False" />
-                <SelectField field="X29106" selected="False" />
-                <SelectField field="X29107" selected="False" />
-                <SelectField field="X29108" selected="False" />
-                <SelectField field="X2926" selected="False" />
-                <SelectField field="X29750" selected="False" />
-                <SelectField field="X29751" selected="False" />
-                <SelectField field="X3" selected="False" />
-                <SelectField field="X3101264" selected="False" />
-                <SelectField field="X3101265" selected="False" />
-                <SelectField field="X3101266" selected="False" />
-                <SelectField field="X3101267" selected="False" />
-                <SelectField field="X3101276" selected="False" />
-                <SelectField field="X3101277" selected="False" />
-                <SelectField field="X3101278" selected="False" />
-                <SelectField field="X3101281" selected="False" />
-                <SelectField field="X3101295" selected="False" />
-                <SelectField field="X3101296" selected="False" />
-                <SelectField field="X3101297" selected="False" />
-                <SelectField field="X3101298" selected="False" />
-                <SelectField field="X31027" selected="False" />
-                <SelectField field="X31028" selected="False" />
-                <SelectField field="X312991" selected="False" />
-                <SelectField field="X312992" selected="False" />
-                <SelectField field="X312993" selected="False" />
-                <SelectField field="X31418" selected="False" />
-                <SelectField field="X315037" selected="False" />
-                <SelectField field="X315082" selected="False" />
-                <SelectField field="X315083" selected="False" />
-                <SelectField field="X315084" selected="False" />
-                <SelectField field="X315085" selected="False" />
-                <SelectField field="X315086" selected="False" />
-                <SelectField field="X315087" selected="False" />
-                <SelectField field="X315088" selected="False" />
-                <SelectField field="X315089" selected="False" />
-                <SelectField field="X315090" selected="False" />
-                <SelectField field="X315091" selected="False" />
-                <SelectField field="X315092" selected="False" />
-                <SelectField field="X315093" selected="False" />
-                <SelectField field="X315094" selected="False" />
-                <SelectField field="X315095" selected="False" />
-                <SelectField field="X315096" selected="False" />
-                <SelectField field="X315097" selected="False" />
-                <SelectField field="X315098" selected="False" />
-                <SelectField field="X315151" selected="False" />
-                <SelectField field="X315152" selected="False" />
-                <SelectField field="X315153" selected="False" />
-                <SelectField field="X315154" selected="False" />
-                <SelectField field="X32302" selected="False" />
-                <SelectField field="X323592" selected="False" />
-                <SelectField field="X323951" selected="False" />
-                <SelectField field="X324669" selected="False" />
-                <SelectField field="X329944" selected="False" />
-                <SelectField field="X330844" selected="False" />
-                <SelectField field="X330877" selected="False" />
-                <SelectField field="X330909" selected="False" />
-                <SelectField field="X330910" selected="False" />
-                <SelectField field="X330911" selected="False" />
-                <SelectField field="X330919" selected="False" />
-                <SelectField field="X330920" selected="False" />
-                <SelectField field="X330923" selected="False" />
-                <SelectField field="X330924" selected="False" />
-                <SelectField field="X330931" selected="False" />
-                <SelectField field="X330932" selected="False" />
-                <SelectField field="X330935" selected="False" />
-                <SelectField field="X330958" selected="False" />
-                <SelectField field="X330959" selected="False" />
-                <SelectField field="X330963" selected="False" />
-                <SelectField field="X330968" selected="False" />
-                <SelectField field="X330971" selected="False" />
-                <SelectField field="X330972" selected="False" />
-                <SelectField field="X330979" selected="False" />
-                <SelectField field="X330980" selected="False" />
-                <SelectField field="X334912" selected="False" />
-                <SelectField field="X334914" selected="False" />
-                <SelectField field="X334915" selected="False" />
-                <SelectField field="X335097" selected="False" />
-                <SelectField field="X335432" selected="False" />
-                <SelectField field="X335677" selected="False" />
-                <SelectField field="X33638" selected="False" />
-                <SelectField field="X336439" selected="False" />
-                <SelectField field="X3410" selected="False" />
-                <SelectField field="X3411" selected="False" />
-                <SelectField field="X341826" selected="False" />
-                <SelectField field="X34218" selected="False" />
-                <SelectField field="X342441" selected="False" />
-                <SelectField field="X342684" selected="False" />
-                <SelectField field="X342712" selected="False" />
-                <SelectField field="X342826" selected="False" />
-                <SelectField field="X343095" selected="False" />
-                <SelectField field="X343120" selected="False" />
-                <SelectField field="X343271" selected="False" />
-                <SelectField field="X343275" selected="False" />
-                <SelectField field="X343276" selected="False" />
-                <SelectField field="X345364" selected="False" />
-                <SelectField field="X345498" selected="False" />
-                <SelectField field="X345501" selected="False" />
-                <SelectField field="X345572" selected="False" />
-                <SelectField field="X345763" selected="False" />
-                <SelectField field="X345764" selected="False" />
-                <SelectField field="X345765" selected="False" />
-                <SelectField field="X345767" selected="False" />
-                <SelectField field="X345768" selected="False" />
-                <SelectField field="X345769" selected="False" />
-                <SelectField field="X345770" selected="False" />
-                <SelectField field="X345771" selected="False" />
-                <SelectField field="X345773" selected="False" />
-                <SelectField field="X345774" selected="False" />
-                <SelectField field="X345775" selected="False" />
-                <SelectField field="X345777" selected="False" />
-                <SelectField field="X345778" selected="False" />
-                <SelectField field="X345779" selected="False" />
-                <SelectField field="X345780" selected="False" />
-                <SelectField field="X345781" selected="False" />
-                <SelectField field="X345783" selected="False" />
-                <SelectField field="X3460" selected="False" />
-                <SelectField field="X3470" selected="False" />
-                <SelectField field="X347054" selected="False" />
-                <SelectField field="X347060" selected="False" />
-                <SelectField field="X347061" selected="False" />
-                <SelectField field="X347062" selected="False" />
-                <SelectField field="X347063" selected="False" />
-                <SelectField field="X347064" selected="False" />
-                <SelectField field="X347065" selected="False" />
-                <SelectField field="X347066" selected="False" />
-                <SelectField field="X347067" selected="False" />
-                <SelectField field="X347068" selected="False" />
-                <SelectField field="X347069" selected="False" />
-                <SelectField field="X347070" selected="False" />
-                <SelectField field="X347071" selected="False" />
-                <SelectField field="X347072" selected="False" />
-                <SelectField field="X347073" selected="False" />
-                <SelectField field="X347074" selected="False" />
-                <SelectField field="X347075" selected="False" />
-                <SelectField field="X347076" selected="False" />
-                <SelectField field="X347077" selected="False" />
-                <SelectField field="X347078" selected="False" />
-                <SelectField field="X347079" selected="False" />
-                <SelectField field="X347080" selected="False" />
-                <SelectField field="X347081" selected="False" />
-                <SelectField field="X347082" selected="False" />
-                <SelectField field="X347083" selected="False" />
-                <SelectField field="X347085" selected="False" />
-                <SelectField field="X347086" selected="False" />
-                <SelectField field="X347087" selected="False" />
-                <SelectField field="X347088" selected="False" />
-                <SelectField field="X347089" selected="False" />
-                <SelectField field="X347090" selected="False" />
-                <SelectField field="X347091" selected="False" />
-                <SelectField field="X3474" selected="False" />
-                <SelectField field="X347464" selected="False" />
-                <SelectField field="X347465" selected="False" />
-                <SelectField field="X347466" selected="False" />
-                <SelectField field="X347467" selected="False" />
-                <SelectField field="X347468" selected="False" />
-                <SelectField field="X347469" selected="False" />
-                <SelectField field="X347470" selected="False" />
-                <SelectField field="X347471" selected="False" />
-                <SelectField field="X347742" selected="False" />
-                <SelectField field="X347743" selected="False" />
-                <SelectField field="X348121" selected="False" />
-                <SelectField field="X348122" selected="False" />
-                <SelectField field="X348123" selected="False" />
-                <SelectField field="X348124" selected="False" />
-                <SelectField field="X348125" selected="False" />
-                <SelectField field="X349201" selected="False" />
-                <SelectField field="X349202" selected="False" />
-                <SelectField field="X349203" selected="False" />
-                <SelectField field="X349204" selected="False" />
-                <SelectField field="X349205" selected="False" />
-                <SelectField field="X349206" selected="False" />
-                <SelectField field="X349207" selected="False" />
-                <SelectField field="X349208" selected="False" />
-                <SelectField field="X349209" selected="False" />
-                <SelectField field="X349210" selected="False" />
-                <SelectField field="X349211" selected="False" />
-                <SelectField field="X349212" selected="False" />
-                <SelectField field="X349213" selected="False" />
-                <SelectField field="X349214" selected="False" />
-                <SelectField field="X349215" selected="False" />
-                <SelectField field="X349216" selected="False" />
-                <SelectField field="X349217" selected="False" />
-                <SelectField field="X349218" selected="False" />
-                <SelectField field="X349219" selected="False" />
-                <SelectField field="X349220" selected="False" />
-                <SelectField field="X349221" selected="False" />
-                <SelectField field="X349222" selected="False" />
-                <SelectField field="X349223" selected="False" />
-                <SelectField field="X349224" selected="False" />
-                <SelectField field="X349225" selected="False" />
-                <SelectField field="X349226" selected="False" />
-                <SelectField field="X349227" selected="False" />
-                <SelectField field="X349228" selected="False" />
-                <SelectField field="X349229" selected="False" />
-                <SelectField field="X349230" selected="False" />
-                <SelectField field="X349231" selected="False" />
-                <SelectField field="X349232" selected="False" />
-                <SelectField field="X349233" selected="False" />
-                <SelectField field="X349234" selected="False" />
-                <SelectField field="X349235" selected="False" />
-                <SelectField field="X349236" selected="False" />
-                <SelectField field="X349237" selected="False" />
-                <SelectField field="X349238" selected="False" />
-                <SelectField field="X349239" selected="False" />
-                <SelectField field="X349240" selected="False" />
-                <SelectField field="X349241" selected="False" />
-                <SelectField field="X349242" selected="False" />
-                <SelectField field="X349243" selected="False" />
-                <SelectField field="X349244" selected="False" />
-                <SelectField field="X349245" selected="False" />
-                <SelectField field="X349246" selected="False" />
-                <SelectField field="X349247" selected="False" />
-                <SelectField field="X349248" selected="False" />
-                <SelectField field="X349249" selected="False" />
-                <SelectField field="X349250" selected="False" />
-                <SelectField field="X349251" selected="False" />
-                <SelectField field="X349252" selected="False" />
-                <SelectField field="X349253" selected="False" />
-                <SelectField field="X349254" selected="False" />
-                <SelectField field="X349255" selected="False" />
-                <SelectField field="X349256" selected="False" />
-                <SelectField field="X349257" selected="False" />
-                <SelectField field="X349909" selected="False" />
-                <SelectField field="X349910" selected="False" />
-                <SelectField field="X349911" selected="False" />
-                <SelectField field="X349912" selected="False" />
-                <SelectField field="X350025" selected="False" />
-                <SelectField field="X350026" selected="False" />
-                <SelectField field="X350029" selected="False" />
-                <SelectField field="X350033" selected="False" />
-                <SelectField field="X350034" selected="False" />
-                <SelectField field="X350035" selected="False" />
-                <SelectField field="X350036" selected="False" />
-                <SelectField field="X350042" selected="False" />
-                <SelectField field="X350043" selected="False" />
-                <SelectField field="X350045" selected="False" />
-                <SelectField field="X350046" selected="False" />
-                <SelectField field="X350047" selected="False" />
-                <SelectField field="X350048" selected="False" />
-                <SelectField field="X350050" selected="False" />
-                <SelectField field="X350052" selected="False" />
-                <SelectField field="X350053" selected="False" />
-                <SelectField field="X350054" selected="False" />
-                <SelectField field="X350060" selected="False" />
-                <SelectField field="X350403" selected="False" />
-                <SelectField field="X350404" selected="False" />
-                <SelectField field="X350405" selected="False" />
-                <SelectField field="X350406" selected="False" />
-                <SelectField field="X350407" selected="False" />
-                <SelectField field="X350408" selected="False" />
-                <SelectField field="X350409" selected="False" />
-                <SelectField field="X350410" selected="False" />
-                <SelectField field="X350416" selected="False" />
-                <SelectField field="X350417" selected="False" />
-                <SelectField field="X35273" selected="False" />
-                <SelectField field="X35281" selected="False" />
-                <SelectField field="X35851" selected="False" />
-                <SelectField field="X35852" selected="False" />
-                <SelectField field="X358585" selected="False" />
-                <SelectField field="X359306" selected="False" />
-                <SelectField field="X359309" selected="False" />
-                <SelectField field="X36209" selected="False" />
-                <SelectField field="X362316" selected="False" />
-                <SelectField field="X363272" selected="False" />
-                <SelectField field="X363291" selected="False" />
-                <SelectField field="X363294" selected="False" />
-                <SelectField field="X363592" selected="False" />
-                <SelectField field="X363611" selected="False" />
-                <SelectField field="X364498" selected="False" />
-                <SelectField field="X364499" selected="False" />
-                <SelectField field="X364500" selected="False" />
-                <SelectField field="X364506" selected="False" />
-                <SelectField field="X364511" selected="False" />
-                <SelectField field="X364512" selected="False" />
-                <SelectField field="X364516" selected="False" />
-                <SelectField field="X364846" selected="False" />
-                <SelectField field="X364848" selected="False" />
-                <SelectField field="X364849" selected="False" />
-                <SelectField field="X364850" selected="False" />
-                <SelectField field="X364851" selected="False" />
-                <SelectField field="X364856" selected="False" />
-                <SelectField field="X364858" selected="False" />
-                <SelectField field="X364859" selected="False" />
-                <SelectField field="X365222" selected="False" />
-                <SelectField field="X365226" selected="False" />
-                <SelectField field="X365235" selected="False" />
-                <SelectField field="X365237" selected="False" />
-                <SelectField field="X36568" selected="False" />
-                <SelectField field="X366713" selected="False" />
-                <SelectField field="X367226" selected="False" />
-                <SelectField field="X367227" selected="False" />
-                <SelectField field="X367228" selected="False" />
-                <SelectField field="X367229" selected="False" />
-                <SelectField field="X367230" selected="False" />
-                <SelectField field="X367231" selected="False" />
-                <SelectField field="X367232" selected="False" />
-                <SelectField field="X367655" selected="False" />
-                <SelectField field="X368323" selected="False" />
-                <SelectField field="X368364" selected="False" />
-                <SelectField field="X368402" selected="False" />
-                <SelectField field="X368573" selected="False" />
-                <SelectField field="X36864" selected="False" />
-                <SelectField field="X36865" selected="False" />
-                <SelectField field="X36866" selected="False" />
-                <SelectField field="X368702" selected="False" />
-                <SelectField field="X368703" selected="False" />
-                <SelectField field="X368783" selected="False" />
-                <SelectField field="X36928" selected="False" />
-                <SelectField field="X36947" selected="False" />
-                <SelectField field="X36963" selected="False" />
-                <SelectField field="X36967" selected="False" />
-                <SelectField field="X36973" selected="False" />
-                <SelectField field="X3701" selected="False" />
-                <SelectField field="X370129" selected="False" />
-                <SelectField field="X370365" selected="False" />
-                <SelectField field="X370368" selected="False" />
-                <SelectField field="X370369" selected="False" />
-                <SelectField field="X370370" selected="False" />
-                <SelectField field="X370371" selected="False" />
-                <SelectField field="X370372" selected="False" />
-                <SelectField field="X370373" selected="False" />
-                <SelectField field="X370374" selected="False" />
-                <SelectField field="X370375" selected="False" />
-                <SelectField field="X370376" selected="False" />
-                <SelectField field="X370377" selected="False" />
-                <SelectField field="X371060" selected="False" />
-                <SelectField field="X371109" selected="False" />
-                <SelectField field="X371110" selected="False" />
-                <SelectField field="X371362" selected="False" />
-                <SelectField field="X372622" selected="False" />
-                <SelectField field="X373450" selected="False" />
-                <SelectField field="X374746" selected="False" />
-                <SelectField field="X374887" selected="False" />
-                <SelectField field="X374910" selected="False" />
-                <SelectField field="X376563" selected="False" />
-                <SelectField field="X376564" selected="False" />
-                <SelectField field="X376566" selected="False" />
-                <SelectField field="X382649" selected="False" />
-                <SelectField field="X382650" selected="False" />
-                <SelectField field="X382651" selected="False" />
-                <SelectField field="X382652" selected="False" />
-                <SelectField field="X382653" selected="False" />
-                <SelectField field="X383121" selected="False" />
-                <SelectField field="X383123" selected="False" />
-                <SelectField field="X383162" selected="False" />
-                <SelectField field="X384461" selected="False" />
-                <SelectField field="X386525" selected="False" />
-                <SelectField field="X392091" selected="False" />
-                <SelectField field="X392092" selected="False" />
-                <SelectField field="X392095" selected="False" />
-                <SelectField field="X392096" selected="False" />
-                <SelectField field="X394140" selected="False" />
-                <SelectField field="X4" selected="False" />
-                <SelectField field="X4133" selected="False" />
-                <SelectField field="X4134" selected="False" />
-                <SelectField field="X4135" selected="False" />
-                <SelectField field="X4136" selected="False" />
-                <SelectField field="X4137" selected="False" />
-                <SelectField field="X4138" selected="False" />
-                <SelectField field="X4579" selected="False" />
-                <SelectField field="X5" selected="False" />
-                <SelectField field="X54636" selected="False" />
-                <SelectField field="X5727" selected="False" />
-                <SelectField field="X6" selected="False" />
-                <SelectField field="X65303" selected="False" />
-                <SelectField field="X65304" selected="False" />
-                <SelectField field="X65305" selected="False" />
-                <SelectField field="X65306" selected="False" />
-                <SelectField field="X6563" selected="False" />
-                <SelectField field="X680" selected="False" />
-                <SelectField field="X693" selected="False" />
-                <SelectField field="X694" selected="False" />
-                <SelectField field="X695" selected="False" />
-                <SelectField field="X7" selected="False" />
-                <SelectField field="X7266" selected="False" />
-                <SelectField field="X7267" selected="False" />
-                <SelectField field="X7534" selected="False" />
-                <SelectField field="X7538" selected="False" />
-                <SelectField field="X7540" selected="False" />
-                <SelectField field="X7545" selected="False" />
-                <SelectField field="X7546" selected="False" />
-                <SelectField field="X7548" selected="False" />
-                <SelectField field="X7552" selected="False" />
-                <SelectField field="X7553" selected="False" />
-                <SelectField field="X7598" selected="False" />
-                <SelectField field="X7935" selected="False" />
-                <SelectField field="X8" selected="False" />
-                <SelectField field="X8471" selected="False" />
-                <SelectField field="X8475" selected="False" />
-                <SelectField field="X9" selected="False" />
-                <SelectField field="X9232" selected="False" />
-                <SelectField field="X9234" selected="False" />
-                <SelectField field="*Unknown" selected="False" />
-              </SelectFields>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-        </Node>
         <Node ToolID="176">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="5082" y="1146" />
+            <Position x="5136" y="1200" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1913,9 +818,6 @@ ENDIF
               <DefaultAnnotationText>Alteryx Titanic Export.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
@@ -1923,7 +825,7 @@ ENDIF
     </Node>
     <Node ToolID="130">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="3197" y="845" width="301" height="229" />
+        <Position x="3251" y="899" width="301" height="229" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1941,7 +843,7 @@ ENDIF
       <ChildNodes>
         <Node ToolID="124">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="3246" y="990" />
+            <Position x="3300" y="1044" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2007,7 +909,7 @@ ENDIF
         </Node>
         <Node ToolID="126">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="3222" y="894" />
+            <Position x="3276" y="948" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2026,7 +928,7 @@ ENDIF
         </Node>
         <Node ToolID="128">
           <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
-            <Position x="3414" y="906" />
+            <Position x="3468" y="960" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2050,7 +952,7 @@ ENDIF
         </Node>
         <Node ToolID="129">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="3318" y="894" />
+            <Position x="3372" y="948" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2071,7 +973,7 @@ ENDIF
     </Node>
     <Node ToolID="119">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="2885" y="845" width="277" height="193" />
+        <Position x="2939" y="899" width="277" height="193" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2089,7 +991,7 @@ ENDIF
       <ChildNodes>
         <Node ToolID="111">
           <GuiSettings>
-            <Position x="2910" y="894" />
+            <Position x="2964" y="948" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2104,15 +1006,12 @@ ENDIF
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Pclass" source="Summarize: GroupBy - Pclass" type="Byte" />
                 <Field name="Sex" size="6" source="Summarize: GroupBy - Sex" type="String" />
                 <Field name="PassengerId" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="Survived" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_2e084bb5149342afb017a1662bf395a1_.tmp" type="Byte" />
+                <Field name="Survived" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_0c3fb2d286e2461895db0dbe1f93c0ce_.tmp" type="Byte" />
                 <Field name="Name" size="82" source="File: (Multiple Sources)" type="V_String" />
                 <Field name="Age" source="Formula: IF IsNull([Age]) THEN [Median_Age] ELSE [Age] endif&#xA;" type="Double" />
                 <Field name="SibSp" source="File: (Multiple Sources)" type="Byte" />
@@ -2128,7 +1027,7 @@ ENDIF
         </Node>
         <Node ToolID="114">
           <GuiSettings>
-            <Position x="2982" y="894" />
+            <Position x="3036" y="948" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2151,19 +1050,16 @@ ENDIF
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings Macro="Predictive Tools\Histogram.yxmc" />
         </Node>
         <Node ToolID="115">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="3078" y="894" />
+            <Position x="3132" y="948" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_d2d0d46eb7074b92bb898b05e426dde5_.yxdb</TempFile>
+              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_bdfd88ed1ad54bde8874d44e9116c5e9_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -2187,7 +1083,7 @@ ENDIF
         </Node>
         <Node ToolID="116">
           <GuiSettings>
-            <Position x="2910" y="954" />
+            <Position x="2964" y="1008" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2202,15 +1098,12 @@ ENDIF
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Pclass" source="Summarize: GroupBy - Pclass" type="Byte" />
                 <Field name="Sex" size="6" source="Summarize: GroupBy - Sex" type="String" />
                 <Field name="PassengerId" source="File: (Multiple Sources)" type="Int16" />
-                <Field name="Survived" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_2e084bb5149342afb017a1662bf395a1_.tmp" type="Byte" />
+                <Field name="Survived" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_0c3fb2d286e2461895db0dbe1f93c0ce_.tmp" type="Byte" />
                 <Field name="Name" size="82" source="File: (Multiple Sources)" type="V_String" />
                 <Field name="Age" source="Formula: IF IsNull([Age]) THEN [Median_Age] ELSE [Age] endif&#xA;" type="Double" />
                 <Field name="SibSp" source="File: (Multiple Sources)" type="Byte" />
@@ -2227,7 +1120,7 @@ ENDIF
         </Node>
         <Node ToolID="117">
           <GuiSettings>
-            <Position x="2982" y="954" />
+            <Position x="3036" y="1008" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2250,19 +1143,16 @@ ENDIF
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings Macro="Predictive Tools\Histogram.yxmc" />
         </Node>
         <Node ToolID="118">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="3078" y="954" />
+            <Position x="3132" y="1008" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_78b9a8280f8445dc814605d5388bc244_.yxdb</TempFile>
+              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_6c3f235324dd43ba8d8d7f02c318a9b9_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -2288,7 +1178,7 @@ ENDIF
     </Node>
     <Node ToolID="110">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="2681" y="845" width="181" height="133" />
+        <Position x="2735" y="899" width="181" height="133" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2306,7 +1196,7 @@ ENDIF
       <ChildNodes>
         <Node ToolID="106">
           <GuiSettings>
-            <Position x="2706" y="894" />
+            <Position x="2760" y="948" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2325,19 +1215,16 @@ ENDIF
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings Macro="Predictive Tools\Distribution_Analysis.yxmc" />
         </Node>
         <Node ToolID="107">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="2778" y="894" />
+            <Position x="2832" y="948" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_fbc5e58726a540558ef888071d4d0096_.yxdb</TempFile>
+              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_c100f629fd2a47cf8d46f90493b03ee1_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -2363,7 +1250,7 @@ ENDIF
     </Node>
     <Node ToolID="89">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="2057" y="869" width="361" height="325" />
+        <Position x="2117" y="923" width="355" height="325" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2381,7 +1268,7 @@ ENDIF
       <ChildNodes>
         <Node ToolID="84">
           <GuiSettings Plugin="AlteryxBasePluginsGui.PearsonCorrelation.PearsonCorrelation">
-            <Position x="2202" y="978" />
+            <Position x="2256" y="1032" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2407,11 +1294,11 @@ ENDIF
         </Node>
         <Node ToolID="85">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="2334" y="978" />
+            <Position x="2388" y="1032" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_ccf58e20072b4b9db33a6d40c7bc322f_.yxdb</TempFile>
+              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_0b470b2079174417bae796d2e20161f9_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -2435,7 +1322,7 @@ ENDIF
         </Node>
         <Node ToolID="86">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="2082" y="978" />
+            <Position x="2142" y="1038" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2467,7 +1354,7 @@ ENDIF
         </Node>
         <Node ToolID="87">
           <GuiSettings Plugin="AlteryxBasePluginsGui.PearsonCorrelation.PearsonCorrelation">
-            <Position x="2202" y="1026" />
+            <Position x="2256" y="1080" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2493,11 +1380,11 @@ ENDIF
         </Node>
         <Node ToolID="88">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="2334" y="1026" />
+            <Position x="2388" y="1080" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_cb2f64f431d74a21a876606627dfe9ed_.yxdb</TempFile>
+              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_e28e583047d14725a707326261c16d51_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -2521,7 +1408,7 @@ ENDIF
         </Node>
         <Node ToolID="96">
           <GuiSettings>
-            <Position x="2202" y="930" />
+            <Position x="2256" y="984" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2538,15 +1425,12 @@ ENDIF
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
         </Node>
         <Node ToolID="97">
           <GuiSettings>
-            <Position x="2202" y="1074" />
+            <Position x="2256" y="1128" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2563,19 +1447,16 @@ ENDIF
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
         </Node>
         <Node ToolID="98">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="2322" y="918" />
+            <Position x="2376" y="972" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_d585302c272a46efa763fca21d185b6a_.yxdb</TempFile>
+              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_64fdc3985a83412c8ab5f92e59dbc866_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -2599,11 +1480,11 @@ ENDIF
         </Node>
         <Node ToolID="99">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="2274" y="942" />
+            <Position x="2328" y="996" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_a6db76b15105485ca462cadab456c270_.yxdb</TempFile>
+              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_241a9522b97344dd904643be81cac977_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -2627,11 +1508,11 @@ ENDIF
         </Node>
         <Node ToolID="100">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="2274" y="1062" />
+            <Position x="2328" y="1116" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_54c87c8da5c640428ee95a36ee3b7c39_.yxdb</TempFile>
+              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_c15e10a2f6ab4bda8d7f270f0fb356ca_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -2655,11 +1536,11 @@ ENDIF
         </Node>
         <Node ToolID="101">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="2262" y="1110" />
+            <Position x="2316" y="1164" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_51f38a6a8fbc45caa6a1e648c3043475_.yxdb</TempFile>
+              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_33caec57684a4acbb330c3c2870f2906_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -2685,7 +1566,7 @@ ENDIF
     </Node>
     <Node ToolID="80">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="2057" y="629" width="433" height="219" />
+        <Position x="2111" y="683" width="433" height="219" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2703,7 +1584,7 @@ ENDIF
       <ChildNodes>
         <Node ToolID="75">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="2082" y="678" />
+            <Position x="2136" y="732" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2722,7 +1603,7 @@ ENDIF
         </Node>
         <Node ToolID="77">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="2082" y="738" />
+            <Position x="2136" y="792" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2740,7 +1621,7 @@ ENDIF
         </Node>
         <Node ToolID="78">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
-            <Position x="2178" y="702" />
+            <Position x="2232" y="756" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2766,7 +1647,7 @@ ENDIF
         </Node>
         <Node ToolID="79">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="2262" y="702" />
+            <Position x="2316" y="756" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2785,11 +1666,11 @@ ENDIF
         </Node>
         <Node ToolID="83">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="2406" y="702" />
+            <Position x="2460" y="756" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_c3dc6418cf244edb97e77008eff33bdb_.yxdb</TempFile>
+              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_3ce96acd4ef54eee964f3181d3184a0e_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -2813,7 +1694,7 @@ ENDIF
         </Node>
         <Node ToolID="82">
           <GuiSettings Plugin="PlotlyCharting">
-            <Position x="2346" y="702" />
+            <Position x="2400" y="756" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2871,7 +1752,7 @@ ENDIF
     </Node>
     <Node ToolID="42">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1073" y="0" width="253" height="394" />
+        <Position x="1127" y="54" width="253.0001" height="394" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2889,7 +1770,7 @@ ENDIF
       <ChildNodes>
         <Node ToolID="36">
           <GuiSettings>
-            <Position x="1110" y="56.00001" />
+            <Position x="1164" y="110" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2906,47 +1787,16 @@ ENDIF
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
         </Node>
         <Node ToolID="37">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1218" y="49" />
+            <Position x="1272" y="103" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_323fec07a6c7422385a0a858b08fd65a_.yxdb</TempFile>
-              <TempFileDataProfiling />
-              <Layout>
-                <ViewMode>Single</ViewMode>
-                <ViewSize value="100" />
-                <View1>
-                  <DefaultTab>Report</DefaultTab>
-                  <Hints>
-                    <Table />
-                  </Hints>
-                </View1>
-                <View2 />
-              </Layout>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-        </Node>
-        <Node ToolID="38">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1206" y="181" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_48e75d90dc7e4d04b13542ea892f7df0_.yxdb</TempFile>
+              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_be53018dbb9f426baea17c20348b8668_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -2970,7 +1820,7 @@ ENDIF
         </Node>
         <Node ToolID="39">
           <GuiSettings>
-            <Position x="1098" y="286" />
+            <Position x="1152" y="340" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2987,19 +1837,16 @@ ENDIF
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
         </Node>
         <Node ToolID="40">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1242" y="262" />
+            <Position x="1296" y="316" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_beb93b58adc84d85a97477d6d8d4760d_.yxdb</TempFile>
+              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_534c47a842144e7e97fc032322558605_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -3023,11 +1870,11 @@ ENDIF
         </Node>
         <Node ToolID="41">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1230" y="310" />
+            <Position x="1284" y="364" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_0708d7fb97e6481bbea5a0e3c3187920_.yxdb</TempFile>
+              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_e98990b7a1924a8297e6ab104384ae05_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -3049,11 +1896,34 @@ ENDIF
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
         </Node>
+        <Node ToolID="180">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1242" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_9fb3f07da8164e55b80103a9b133a096_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
       </ChildNodes>
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1385" y="5" width="493" height="213" />
+        <Position x="1439" y="59" width="493" height="213" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3071,7 +1941,7 @@ ENDIF
       <ChildNodes>
         <Node ToolID="51">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="1410" y="117.9999" />
+            <Position x="1464" y="171.9999" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3103,7 +1973,7 @@ ENDIF
         </Node>
         <Node ToolID="52">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="1518" y="86.99978" />
+            <Position x="1572" y="140.9998" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3123,7 +1993,7 @@ ENDIF
         </Node>
         <Node ToolID="53">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1602" y="68" />
+            <Position x="1656" y="122" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -3157,7 +2027,7 @@ ENDIF
         </Node>
         <Node ToolID="54">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1698" y="54" />
+            <Position x="1752" y="108" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3177,7 +2047,7 @@ ENDIF
         </Node>
         <Node ToolID="71">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1794" y="54" />
+            <Position x="1848" y="108" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3200,7 +2070,7 @@ ENDIF
     </Node>
     <Node ToolID="45">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="629" y="197" width="178.3158" height="433" />
+        <Position x="683" y="251" width="178.3158" height="433" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3218,7 +2088,7 @@ ENDIF
       <ChildNodes>
         <Node ToolID="26">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="654" y="246" />
+            <Position x="708" y="300" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3247,7 +2117,7 @@ ENDIF
         </Node>
         <Node ToolID="27">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="654" y="546" />
+            <Position x="708" y="600" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3277,7 +2147,7 @@ ENDIF
     </Node>
     <Node ToolID="44">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="412.9997" y="0" width="193.4399" height="889" />
+        <Position x="436.9999" y="29.00002" width="205.0001" height="1165" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3293,15 +2163,15 @@ ENDIF
         </Annotation>
       </Properties>
       <ChildNodes>
-        <Node ToolID="10">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="438" y="49" />
+        <Node ToolID="181">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="462.0002" y="78.00002" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="PassengerId" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="PassengerId" action="GroupBy" rename="PassengerId" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3309,17 +2179,17 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
-        <Node ToolID="11">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="438.0002" y="84.99998" />
+        <Node ToolID="187">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="462" y="174.0001" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="Survived" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="Pclass" action="GroupBy" rename="Pclass" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3327,17 +2197,17 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
-        <Node ToolID="12">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="438" y="133.0001" />
+        <Node ToolID="194">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="462.0003" y="126" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="Pclass" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="Survived" action="GroupBy" rename="Survived" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3345,17 +2215,17 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
-        <Node ToolID="13">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="438" y="181" />
+        <Node ToolID="195">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="462" y="222.0002" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="Name" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="Name" action="GroupBy" rename="Name" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3363,17 +2233,17 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
-        <Node ToolID="14">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="438" y="229" />
+        <Node ToolID="196">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="462" y="318" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="Sex" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="Age" action="GroupBy" rename="Age" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3381,17 +2251,17 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
-        <Node ToolID="15">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="438" y="277" />
+        <Node ToolID="197">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="461.9999" y="270" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="Age" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="Sex" action="GroupBy" rename="Sex" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3399,17 +2269,17 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
-        <Node ToolID="16">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="437.9999" y="325" />
+        <Node ToolID="198">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="462" y="366" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="SibSp" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="SibSp" action="GroupBy" rename="SibSp" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3417,17 +2287,17 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
-        <Node ToolID="17">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="438" y="373" />
+        <Node ToolID="199">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="462" y="414" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="Parch" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="Parch" action="GroupBy" rename="Parch" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3435,17 +2305,17 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
-        <Node ToolID="18">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="437.9999" y="469" />
+        <Node ToolID="203">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="462" y="462" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="PassengerId" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="Ticket" action="GroupBy" rename="Ticket" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3453,17 +2323,17 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
-        <Node ToolID="19">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="438.0001" y="517" />
+        <Node ToolID="202">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="461.9999" y="510" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="Pclass" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="Fare" action="GroupBy" rename="Fare" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3471,17 +2341,17 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
-        <Node ToolID="20">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="437.9997" y="565" />
+        <Node ToolID="204">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="461.9999" y="606" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="Name" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="Embarked" action="GroupBy" rename="Embarked" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3489,17 +2359,17 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
-        <Node ToolID="21">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="438.0001" y="613" />
+        <Node ToolID="205">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="461.9999" y="558" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="Sex" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="Cabin" action="GroupBy" rename="Cabin" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3507,17 +2377,17 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
-        <Node ToolID="22">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="437.9998" y="661" />
+        <Node ToolID="207">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="558" y="630" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="Age" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="PassengerId" action="GroupBy" rename="PassengerId" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3525,17 +2395,17 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
-        <Node ToolID="23">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="438.0001" y="709" />
+        <Node ToolID="206">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="558" y="1014" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="SibSp" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="Fare" action="GroupBy" rename="Fare" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3543,17 +2413,17 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
-        <Node ToolID="24">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="437.9999" y="757" />
+        <Node ToolID="208">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="558" y="678" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="Parch" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="Pclass" action="GroupBy" rename="Pclass" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3561,17 +2431,17 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
-        <Node ToolID="25">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="438" y="805" />
+        <Node ToolID="210">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="558" y="726" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <UniqueFields>
-                <Field field="Ticket" />
-              </UniqueFields>
+              <SummarizeFields>
+                <SummarizeField field="Name" action="GroupBy" rename="Name" />
+              </SummarizeFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -3579,13 +2449,139 @@ ENDIF
               <Left value="False" />
             </Annotation>
           </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="211">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="558" y="822" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Age" action="GroupBy" rename="Age" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="212">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="558" y="774" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Sex" action="GroupBy" rename="Sex" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="213">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="558" y="870" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="SibSp" action="GroupBy" rename="SibSp" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="214">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="558" y="918" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Parch" action="GroupBy" rename="Parch" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="215">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="558" y="966" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Ticket" action="GroupBy" rename="Ticket" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="216">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="558" y="1110" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Embarked" action="GroupBy" rename="Embarked" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="217">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="558" y="1062" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Cabin" action="GroupBy" rename="Cabin" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
         </Node>
       </ChildNodes>
     </Node>
     <Node ToolID="43">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1.144409E-05" y="5" width="373" height="733" />
+        <Position x="54" y="59" width="373" height="733" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3603,7 +2599,7 @@ ENDIF
       <ChildNodes>
         <Node ToolID="3">
           <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
-            <Position x="133" y="54.00001" />
+            <Position x="187" y="108" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3641,7 +2637,7 @@ ENDIF
         </Node>
         <Node ToolID="4">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="49" y="54" />
+            <Position x="103" y="108" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3665,7 +2661,7 @@ ENDIF
         </Node>
         <Node ToolID="6">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicInput.DynamicInput">
-            <Position x="205" y="54" />
+            <Position x="259" y="108" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3694,15 +2690,12 @@ ENDIF
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicInput" />
         </Node>
         <Node ToolID="7">
           <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
-            <Position x="121" y="654" />
+            <Position x="175" y="708" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3740,7 +2733,7 @@ ENDIF
         </Node>
         <Node ToolID="8">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="25.00001" y="654" />
+            <Position x="79" y="708" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3764,7 +2757,7 @@ ENDIF
         </Node>
         <Node ToolID="9">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicInput.DynamicInput">
-            <Position x="193" y="654" />
+            <Position x="247" y="708" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3793,15 +2786,12 @@ ENDIF
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicInput" />
         </Node>
         <Node ToolID="28">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-            <Position x="289" y="654" />
+            <Position x="342" y="702" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3827,17 +2817,17 @@ ENDIF
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="PassengerId" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_f32d8539d64e4110b38135291b0e14a2_.tmp" type="Int16" />
-                <Field name="Pclass" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_f32d8539d64e4110b38135291b0e14a2_.tmp" type="Byte" />
-                <Field name="Name" size="63" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_f32d8539d64e4110b38135291b0e14a2_.tmp" type="V_String" />
-                <Field name="Sex" size="6" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_f32d8539d64e4110b38135291b0e14a2_.tmp" type="String" />
-                <Field name="Age" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_f32d8539d64e4110b38135291b0e14a2_.tmp" type="Double" />
-                <Field name="SibSp" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_f32d8539d64e4110b38135291b0e14a2_.tmp" type="Byte" />
-                <Field name="Parch" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_f32d8539d64e4110b38135291b0e14a2_.tmp" type="Byte" />
-                <Field name="Ticket" size="18" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_f32d8539d64e4110b38135291b0e14a2_.tmp" type="V_String" />
-                <Field name="Fare" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_f32d8539d64e4110b38135291b0e14a2_.tmp" type="Double" />
-                <Field name="Cabin" size="15" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_f32d8539d64e4110b38135291b0e14a2_.tmp" type="V_String" />
-                <Field name="Embarked" size="1" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_f32d8539d64e4110b38135291b0e14a2_.tmp" type="String" />
+                <Field name="PassengerId" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_73b8f97f859948a6bee374c0ec6b4e27_.tmp" type="Int16" />
+                <Field name="Pclass" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_73b8f97f859948a6bee374c0ec6b4e27_.tmp" type="Byte" />
+                <Field name="Name" size="63" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_73b8f97f859948a6bee374c0ec6b4e27_.tmp" type="V_String" />
+                <Field name="Sex" size="6" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_73b8f97f859948a6bee374c0ec6b4e27_.tmp" type="String" />
+                <Field name="Age" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_73b8f97f859948a6bee374c0ec6b4e27_.tmp" type="Double" />
+                <Field name="SibSp" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_73b8f97f859948a6bee374c0ec6b4e27_.tmp" type="Byte" />
+                <Field name="Parch" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_73b8f97f859948a6bee374c0ec6b4e27_.tmp" type="Byte" />
+                <Field name="Ticket" size="18" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_73b8f97f859948a6bee374c0ec6b4e27_.tmp" type="V_String" />
+                <Field name="Fare" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_73b8f97f859948a6bee374c0ec6b4e27_.tmp" type="Double" />
+                <Field name="Cabin" size="15" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_73b8f97f859948a6bee374c0ec6b4e27_.tmp" type="V_String" />
+                <Field name="Embarked" size="1" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_73b8f97f859948a6bee374c0ec6b4e27_.tmp" type="String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -3845,7 +2835,7 @@ ENDIF
         </Node>
         <Node ToolID="29">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-            <Position x="289" y="54.00001" />
+            <Position x="343" y="108" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3872,18 +2862,18 @@ ENDIF
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="PassengerId" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_2e084bb5149342afb017a1662bf395a1_.tmp" type="Int16" />
-                <Field name="Survived" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_2e084bb5149342afb017a1662bf395a1_.tmp" type="Byte" />
-                <Field name="Pclass" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_2e084bb5149342afb017a1662bf395a1_.tmp" type="Byte" />
-                <Field name="Name" size="82" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_2e084bb5149342afb017a1662bf395a1_.tmp" type="V_String" />
-                <Field name="Sex" size="6" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_2e084bb5149342afb017a1662bf395a1_.tmp" type="String" />
-                <Field name="Age" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_2e084bb5149342afb017a1662bf395a1_.tmp" type="Double" />
-                <Field name="SibSp" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_2e084bb5149342afb017a1662bf395a1_.tmp" type="Byte" />
-                <Field name="Parch" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_2e084bb5149342afb017a1662bf395a1_.tmp" type="Byte" />
-                <Field name="Ticket" size="18" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_2e084bb5149342afb017a1662bf395a1_.tmp" type="V_String" />
-                <Field name="Fare" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_2e084bb5149342afb017a1662bf395a1_.tmp" type="Double" />
-                <Field name="Cabin" size="15" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_2e084bb5149342afb017a1662bf395a1_.tmp" type="V_String" />
-                <Field name="Embarked" size="1" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_16352_2205ce45e1b44607a1166238643bfcd7_\Engine_8264_2e084bb5149342afb017a1662bf395a1_.tmp" type="String" />
+                <Field name="PassengerId" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_0c3fb2d286e2461895db0dbe1f93c0ce_.tmp" type="Int16" />
+                <Field name="Survived" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_0c3fb2d286e2461895db0dbe1f93c0ce_.tmp" type="Byte" />
+                <Field name="Pclass" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_0c3fb2d286e2461895db0dbe1f93c0ce_.tmp" type="Byte" />
+                <Field name="Name" size="82" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_0c3fb2d286e2461895db0dbe1f93c0ce_.tmp" type="V_String" />
+                <Field name="Sex" size="6" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_0c3fb2d286e2461895db0dbe1f93c0ce_.tmp" type="String" />
+                <Field name="Age" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_0c3fb2d286e2461895db0dbe1f93c0ce_.tmp" type="Double" />
+                <Field name="SibSp" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_0c3fb2d286e2461895db0dbe1f93c0ce_.tmp" type="Byte" />
+                <Field name="Parch" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_0c3fb2d286e2461895db0dbe1f93c0ce_.tmp" type="Byte" />
+                <Field name="Ticket" size="18" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_0c3fb2d286e2461895db0dbe1f93c0ce_.tmp" type="V_String" />
+                <Field name="Fare" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_0c3fb2d286e2461895db0dbe1f93c0ce_.tmp" type="Double" />
+                <Field name="Cabin" size="15" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_0c3fb2d286e2461895db0dbe1f93c0ce_.tmp" type="V_String" />
+                <Field name="Embarked" size="1" source="File: C:\Users\MIKEDR~1\AppData\Local\Temp\Engine_4028_11b6003e76a54de29747b08281a3f6a8_\Engine_1272_0c3fb2d286e2461895db0dbe1f93c0ce_.tmp" type="String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -3893,7 +2883,7 @@ ENDIF
     </Node>
     <Node ToolID="60">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1385" y="269" width="648" height="237" />
+        <Position x="1439" y="323" width="648" height="237" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3911,7 +2901,7 @@ ENDIF
       <ChildNodes>
         <Node ToolID="56">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="1410" y="390" />
+            <Position x="1464" y="444" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3943,7 +2933,7 @@ ENDIF
         </Node>
         <Node ToolID="57">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="1518" y="354" />
+            <Position x="1572" y="408" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3963,7 +2953,7 @@ ENDIF
         </Node>
         <Node ToolID="58">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1602" y="330" />
+            <Position x="1656" y="384" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -3999,7 +2989,7 @@ ENDIF
         </Node>
         <Node ToolID="59">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1698" y="318" />
+            <Position x="1752" y="372" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4019,7 +3009,7 @@ ENDIF
         </Node>
         <Node ToolID="61">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="1914" y="318" />
+            <Position x="1968" y="372" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4050,7 +3040,7 @@ ENDIF
         </Node>
         <Node ToolID="72">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1794" y="318" />
+            <Position x="1848" y="372" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4073,7 +3063,7 @@ ENDIF
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1385" y="545" width="588" height="225" />
+        <Position x="1439" y="599" width="588" height="225" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -4091,7 +3081,7 @@ ENDIF
       <ChildNodes>
         <Node ToolID="62">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="1410" y="666" />
+            <Position x="1464" y="720" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4123,7 +3113,7 @@ ENDIF
         </Node>
         <Node ToolID="63">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="1518" y="630" />
+            <Position x="1572" y="684" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4143,7 +3133,7 @@ ENDIF
         </Node>
         <Node ToolID="64">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1602" y="606" />
+            <Position x="1656" y="660" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -4179,7 +3169,7 @@ ENDIF
         </Node>
         <Node ToolID="65">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1698" y="594" />
+            <Position x="1752" y="648" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4199,7 +3189,7 @@ ENDIF
         </Node>
         <Node ToolID="66">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="1854" y="654" />
+            <Position x="1908" y="708" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4230,7 +3220,7 @@ ENDIF
         </Node>
         <Node ToolID="73">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1794" y="594" />
+            <Position x="1848" y="648" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4253,7 +3243,7 @@ ENDIF
     </Node>
     <Node ToolID="70">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="2081" y="473" width="178.3158" height="133" />
+        <Position x="2135" y="527" width="178.3158" height="133" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -4271,7 +3261,7 @@ ENDIF
       <ChildNodes>
         <Node ToolID="68">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="2106" y="522" />
+            <Position x="2160" y="576" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4295,422 +3285,6 @@ ENDIF
             </Annotation>
           </Properties>
           <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
-        </Node>
-      </ChildNodes>
-    </Node>
-    <Node ToolID="132">
-      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="3509" y="845" width="197.5847" height="133" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Caption>Familie Plots , TO DO</Caption>
-          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
-          <Disabled value="False" />
-          <Folded value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <ChildNodes>
-        <Node ToolID="131">
-          <GuiSettings Plugin="PlotlyCharting">
-            <Position x="3534" y="894" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <ChartingFields>
-                <Traces>
-                  <type>bar</type>
-                  <mode>markers</mode>
-                  <orientation>v</orientation>
-                  <xsrc>Embarked</xsrc>
-                  <ysrc>Survived</ysrc>
-                  <textposition>None</textposition>
-                  <marker>
-                    <line>
-                      <width>0</width>
-                    </line>
-                  </marker>
-                </Traces>
-                <Traces>
-                  <orientation>v</orientation>
-                  <type>bar</type>
-                </Traces>
-                <Layout>
-                  <title>
-                    <text>
-                    </text>
-                  </title>
-                  <font>
-                    <family>sans-serif</family>
-                    <size>12</size>
-                  </font>
-                  <autosize>false</autosize>
-                  <width>700</width>
-                  <height>849</height>
-                  <showlegend>true</showlegend>
-                  <hovermode>closest</hovermode>
-                  <xaxis>
-                    <range>-0.99533131581892254</range>
-                    <range>3.890279716821758</range>
-                    <autorange>false</autorange>
-                    <title>
-                      <text>Embarked</text>
-                    </title>
-                    <tickfont>
-                      <size>12</size>
-                    </tickfont>
-                    <nticks>0</nticks>
-                    <type>category</type>
-                  </xaxis>
-                  <yaxis>
-                    <range>-100.83211510353956</range>
-                    <range>817.0718740481434</range>
-                    <autorange>false</autorange>
-                    <title>
-                      <text>Survived</text>
-                    </title>
-                    <type>linear</type>
-                  </yaxis>
-                  <margin>
-                    <pad>0</pad>
-                    <t>100</t>
-                    <b>80</b>
-                    <l>80</l>
-                    <r>80</r>
-                  </margin>
-                  <legend>
-                    <font>
-                      <size>12</size>
-                    </font>
-                    <borderwidth>0</borderwidth>
-                  </legend>
-                </Layout>
-              </ChartingFields>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
-        </Node>
-      </ChildNodes>
-    </Node>
-    <Node ToolID="136">
-      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="3725" y="845" width="218.8956" height="133" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Caption>Ticket Freq Plots , TO DO</Caption>
-          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
-          <Disabled value="False" />
-          <Folded value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <ChildNodes>
-        <Node ToolID="135">
-          <GuiSettings Plugin="PlotlyCharting">
-            <Position x="3750" y="894" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <ChartingFields>
-                <Traces>
-                  <type>bar</type>
-                  <mode>markers</mode>
-                  <orientation>v</orientation>
-                  <xsrc>Embarked</xsrc>
-                  <ysrc>Survived</ysrc>
-                  <textposition>None</textposition>
-                  <marker>
-                    <line>
-                      <width>0</width>
-                    </line>
-                  </marker>
-                </Traces>
-                <Traces>
-                  <orientation>v</orientation>
-                  <type>bar</type>
-                </Traces>
-                <Layout>
-                  <title>
-                    <text>
-                    </text>
-                  </title>
-                  <font>
-                    <family>sans-serif</family>
-                    <size>12</size>
-                  </font>
-                  <autosize>false</autosize>
-                  <width>700</width>
-                  <height>849</height>
-                  <showlegend>true</showlegend>
-                  <hovermode>closest</hovermode>
-                  <xaxis>
-                    <range>-0.99533131581892254</range>
-                    <range>3.890279716821758</range>
-                    <autorange>false</autorange>
-                    <title>
-                      <text>Embarked</text>
-                    </title>
-                    <tickfont>
-                      <size>12</size>
-                    </tickfont>
-                    <nticks>0</nticks>
-                    <type>category</type>
-                  </xaxis>
-                  <yaxis>
-                    <range>-100.83211510353956</range>
-                    <range>817.0718740481434</range>
-                    <autorange>false</autorange>
-                    <title>
-                      <text>Survived</text>
-                    </title>
-                    <type>linear</type>
-                  </yaxis>
-                  <margin>
-                    <pad>0</pad>
-                    <t>100</t>
-                    <b>80</b>
-                    <l>80</l>
-                    <r>80</r>
-                  </margin>
-                  <legend>
-                    <font>
-                      <size>12</size>
-                    </font>
-                    <borderwidth>0</borderwidth>
-                  </legend>
-                </Layout>
-              </ChartingFields>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
-        </Node>
-      </ChildNodes>
-    </Node>
-    <Node ToolID="139">
-      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="3965" y="845" width="210.0857" height="133" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Caption>Title Freq Plots , TO DO</Caption>
-          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
-          <Disabled value="False" />
-          <Folded value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <ChildNodes>
-        <Node ToolID="138">
-          <GuiSettings Plugin="PlotlyCharting">
-            <Position x="3990" y="894" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <ChartingFields>
-                <Traces>
-                  <type>bar</type>
-                  <mode>markers</mode>
-                  <orientation>v</orientation>
-                  <xsrc>Embarked</xsrc>
-                  <ysrc>Survived</ysrc>
-                  <textposition>None</textposition>
-                  <marker>
-                    <line>
-                      <width>0</width>
-                    </line>
-                  </marker>
-                </Traces>
-                <Traces>
-                  <orientation>v</orientation>
-                  <type>bar</type>
-                </Traces>
-                <Layout>
-                  <title>
-                    <text>
-                    </text>
-                  </title>
-                  <font>
-                    <family>sans-serif</family>
-                    <size>12</size>
-                  </font>
-                  <autosize>false</autosize>
-                  <width>700</width>
-                  <height>849</height>
-                  <showlegend>true</showlegend>
-                  <hovermode>closest</hovermode>
-                  <xaxis>
-                    <range>-0.99533131581892254</range>
-                    <range>3.890279716821758</range>
-                    <autorange>false</autorange>
-                    <title>
-                      <text>Embarked</text>
-                    </title>
-                    <tickfont>
-                      <size>12</size>
-                    </tickfont>
-                    <nticks>0</nticks>
-                    <type>category</type>
-                  </xaxis>
-                  <yaxis>
-                    <range>-100.83211510353956</range>
-                    <range>817.0718740481434</range>
-                    <autorange>false</autorange>
-                    <title>
-                      <text>Survived</text>
-                    </title>
-                    <type>linear</type>
-                  </yaxis>
-                  <margin>
-                    <pad>0</pad>
-                    <t>100</t>
-                    <b>80</b>
-                    <l>80</l>
-                    <r>80</r>
-                  </margin>
-                  <legend>
-                    <font>
-                      <size>12</size>
-                    </font>
-                    <borderwidth>0</borderwidth>
-                  </legend>
-                </Layout>
-              </ChartingFields>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
-        </Node>
-      </ChildNodes>
-    </Node>
-    <Node ToolID="143">
-      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="4193" y="845" width="260.156" height="133" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Caption>Title Freq grouped Plots , TO DO</Caption>
-          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
-          <Disabled value="False" />
-          <Folded value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <ChildNodes>
-        <Node ToolID="142">
-          <GuiSettings Plugin="PlotlyCharting">
-            <Position x="4218" y="894" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <ChartingFields>
-                <Traces>
-                  <type>bar</type>
-                  <mode>markers</mode>
-                  <orientation>v</orientation>
-                  <xsrc>Embarked</xsrc>
-                  <ysrc>Survived</ysrc>
-                  <textposition>None</textposition>
-                  <marker>
-                    <line>
-                      <width>0</width>
-                    </line>
-                  </marker>
-                </Traces>
-                <Traces>
-                  <orientation>v</orientation>
-                  <type>bar</type>
-                </Traces>
-                <Layout>
-                  <title>
-                    <text>
-                    </text>
-                  </title>
-                  <font>
-                    <family>sans-serif</family>
-                    <size>12</size>
-                  </font>
-                  <autosize>false</autosize>
-                  <width>700</width>
-                  <height>849</height>
-                  <showlegend>true</showlegend>
-                  <hovermode>closest</hovermode>
-                  <xaxis>
-                    <range>-0.99533131581892254</range>
-                    <range>3.890279716821758</range>
-                    <autorange>false</autorange>
-                    <title>
-                      <text>Embarked</text>
-                    </title>
-                    <tickfont>
-                      <size>12</size>
-                    </tickfont>
-                    <nticks>0</nticks>
-                    <type>category</type>
-                  </xaxis>
-                  <yaxis>
-                    <range>-100.83211510353956</range>
-                    <range>817.0718740481434</range>
-                    <autorange>false</autorange>
-                    <title>
-                      <text>Survived</text>
-                    </title>
-                    <type>linear</type>
-                  </yaxis>
-                  <margin>
-                    <pad>0</pad>
-                    <t>100</t>
-                    <b>80</b>
-                    <l>80</l>
-                    <r>80</r>
-                  </margin>
-                  <legend>
-                    <font>
-                      <size>12</size>
-                    </font>
-                    <borderwidth>0</borderwidth>
-                  </legend>
-                </Layout>
-              </ChartingFields>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
         </Node>
       </ChildNodes>
     </Node>
@@ -4838,10 +3412,6 @@ ENDIF
     </Connection>
     <Connection>
       <Origin ToolID="174" Connection="Output" />
-      <Destination ToolID="175" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="175" Connection="Output" />
       <Destination ToolID="176" Connection="Input" />
     </Connection>
     <Connection>
@@ -4910,10 +3480,6 @@ ENDIF
     </Connection>
     <Connection>
       <Origin ToolID="86" Connection="True" />
-      <Destination ToolID="102" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="86" Connection="True" />
       <Destination ToolID="106" Connection="Input147" />
     </Connection>
     <Connection>
@@ -4962,7 +3528,7 @@ ENDIF
     </Connection>
     <Connection>
       <Origin ToolID="36" Connection="Correlation Matrix" />
-      <Destination ToolID="38" Connection="Input" />
+      <Destination ToolID="180" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="39" Connection="Output" />
@@ -5022,38 +3588,6 @@ ENDIF
     </Connection>
     <Connection>
       <Origin ToolID="28" Connection="Output" />
-      <Destination ToolID="18" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="28" Connection="Output" />
-      <Destination ToolID="19" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="28" Connection="Output" />
-      <Destination ToolID="25" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="28" Connection="Output" />
-      <Destination ToolID="20" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="28" Connection="Output" />
-      <Destination ToolID="21" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="28" Connection="Output" />
-      <Destination ToolID="22" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="28" Connection="Output" />
-      <Destination ToolID="23" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="28" Connection="Output" />
-      <Destination ToolID="24" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="28" Connection="Output" />
       <Destination ToolID="27" Connection="Input" />
     </Connection>
     <Connection name="#2">
@@ -5065,40 +3599,100 @@ ENDIF
       <Destination ToolID="35" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="29" Connection="Output" />
-      <Destination ToolID="10" Connection="Input" />
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="206" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="29" Connection="Output" />
-      <Destination ToolID="11" Connection="Input" />
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="207" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="29" Connection="Output" />
-      <Destination ToolID="12" Connection="Input" />
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="208" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="29" Connection="Output" />
-      <Destination ToolID="13" Connection="Input" />
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="210" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="29" Connection="Output" />
-      <Destination ToolID="14" Connection="Input" />
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="211" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="29" Connection="Output" />
-      <Destination ToolID="15" Connection="Input" />
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="212" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="29" Connection="Output" />
-      <Destination ToolID="16" Connection="Input" />
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="213" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="29" Connection="Output" />
-      <Destination ToolID="17" Connection="Input" />
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="214" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="215" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="216" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="217" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="29" Connection="Output" />
       <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="181" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="194" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="187" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="195" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="197" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="196" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="198" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="199" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="203" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="202" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="205" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="204" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="56" Connection="True" />
